@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/signUp.css">
+</head>
+<body>
+    <div class="container my-5" >
+        <div class="box m-auto w-75 text-center p-5">
+            <h1>Smart Login System</h1>
+            <input id="usernameInput" class="form-control my-3 bg-transparent text-white" type="text" placeholder="Enter your name">
+            <p id="usernameAlert" class="d-none text-danger">include at least 1 letter capital, minimum letters 20.</p>
+            <input id="emailInput" class="form-control my-3 bg-transparent text-white" type="text" placeholder="Enter your email">
+            <p id="emailAlert" class="d-none text-danger">include at least 1 letter and must contain @</p>
+            <input id="passwordInput" class="form-control my-3 bg-transparent text-white" type="password" placeholder="Enter your password">
+            <p id="passwordAlert" class="d-none text-danger">from 5 to 20 character</p>
+            <p>
+                <!-- <span class="text-danger m-3">All inputs are required</span> -->
+            </p>
+            <button onclick="signUp()" class="btn btn-outline-info w-100 my-3"> Sign Up </button>
+            <p class="text-white">
+                You have an account? 
+                <a href="./html/signin.html">Sign In</a>
+            <p id="existAlert" class="d-none text-danger">User already exist</p>
+            </p>
+        </div>
+    </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

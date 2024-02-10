@@ -1,0 +1,17 @@
+body {
+    background-color: #24353F;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
